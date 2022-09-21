@@ -1,0 +1,20 @@
+######################
+from lib2to3.pygram import pattern_grammar
+import string
+###########################
+string="hallo"
+string="alles goed"
+###########################
+print(hallo)
+print(alles goed)
+#################################
+aantal= 2
+omschrijving= patat 
+stucksprrijs= 3
+#################################
+string{"ik heet aziz"}
+print("ik heet aziz")
+print(aantal*stucksprrijs)
+#################################
+string("davinci")
+###########################
