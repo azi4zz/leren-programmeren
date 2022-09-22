@@ -6,4 +6,4 @@ aantal_kortingsbonnen = 3
 kortingsbonnen = 0.50
 
 prijs =(aantal_croissantjes * croissantjes_prijs + aantal_stokbroden * stokbroden_prijs - kortingsbonnen * aantal_kortingsbonnen) 
-print ("de feestlunch prijs =",prijs, "euro")
+print ("de feestlunch prijs =",prijs, "euro voor de 17 croissantjes en de 2 stokbroden als de 3 kortingsbonnen nog geldig zijn")
