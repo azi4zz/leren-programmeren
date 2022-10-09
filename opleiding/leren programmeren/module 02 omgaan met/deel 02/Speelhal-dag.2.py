@@ -1,5 +1,4 @@
-aantal_personnen = int(input("hoe veel zijn jullie?")) 
-gameseat_kost_voor_een_person_per_5min = 0.37
+aantal_personnen = int(input("hoe veel zijn jullie?"))
 gameseat_kost_voor_een_person_per_1min = 0.37 / 5
 tijd_spelen = int(input("hoe veel minuten willen jullie sppelen?"))
 totaal_prijs = (gameseat_kost_voor_een_person_per_1min *  aantal_personnen * tijd_spelen) 

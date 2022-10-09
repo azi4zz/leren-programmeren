@@ -1,5 +1,3 @@
-from tkinter import N
-
 
 n = str(input("hoe heet u?"))
 a = str(input("wat is uw adress?"))
