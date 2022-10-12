@@ -8,6 +8,8 @@ diploma = input("heb je een Diploma MBO-4 ondernemen?")
 rijbewijs = input("heb je  een geldig Vrachtwagen rijbewijs?")
 hoed = input ("Ben je  in bezit van een hoge hoed?")
 praktijk = int(input("Hoeveel jaar heb je praktijkervaring met dieren-dressuur?"))
+praktijk1 = input("hoeveel jaar heb je praktijkervaring met jongleren?")
+praktijk2 = input("hoeveel jaar heb je prakrijkervaring metacrobatiek?")
 m = input("ben je een man of vrouw?")
 if m == "man" :
     snoor = input("heb je een snoor?")
@@ -21,7 +23,7 @@ elif m == "vrouw" :
 lengte = int(input ("Wat is jou lengte? (in cm)"))
 gewicht = int(input ("Wat is jou gewicht? (in kg)"))
 certificaat = input ("Heb je een overleven met een gevaarlijk persoon certificaat? ")        
-if (praktijk > 4)  and (diploma == "ja" and rijbewijs == "ja" and hoed == "ja" and certificaat == "ja" and praktijk > 4  and (m == "vrouw" and haar == "ja" and  haarLengte > 20) or (m== "man" and snoor == "ja" and snorLengte > 10) and lengte > 150 and gewicht > 90) :
+if (praktijk > 4 or praktijk1 > 5 or praktijk2 > 3 ) and (diploma == "ja") and rijbewijs == "ja" and hoed == "ja" and ((m == "vrouw" and haar == "ja" and  haarLengte > 20) or (m == "man" and snoor == "ja"  and snorLengte > 10)) and (lengte > 150 and gewicht > 90):
     print ("Gefeliciteerd ", Naam    ,"! U komt in aanmerking voor een sollicitatiegesprek, stuur snel uw CV!")
 else :
     print (" sorry " , Naam , "U voldoet niet aan onze strenge eisen voor de functie van Circusdirecteur, het spijt ons!")   
