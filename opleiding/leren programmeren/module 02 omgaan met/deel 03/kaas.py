@@ -22,7 +22,7 @@ if kaas == "nee" :
             print("blue de rochbaron")
         else: 
             print("foume d'ambert ") 
-    else :
+    if schimmel == "nee" :
         k = input("heeft de kaas een korst?")
         if k == "ja" :
             print("camembert")
