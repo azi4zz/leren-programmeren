@@ -5,13 +5,13 @@ if kaas == "ja" :
         belagelijk = input("is de kaas belagelijk duur?")
         if belagelijk == "ja" : 
             print("emmenthaler")
-        if belagelijk == "nee" :
+        else :
             print("leerdammer") 
-    if gaten == "nee" : 
+    else : 
         hard = input("is de kaas hard als steen?")
         if hard == "ja" :
             print("parmigiano")
-        if hard == "nee" :
+        else:
             print("goudse kaas")
 
 if kaas == "nee" : 
@@ -20,13 +20,13 @@ if kaas == "nee" :
         korst = input("heeft de kaas een korst?")
         if korst == "ja" : 
             print("blue de rochbaron")
-        if korst == "nee" : 
+        else: 
             print("foume d'ambert ") 
-    if schimmel == "nee" :
+    else :
         k = input("heeft de kaas een korst?")
         if k == "ja" :
             print("camembert")
-        if k == "nee" :
+        else :
             print("mozzarella")    
 
        
