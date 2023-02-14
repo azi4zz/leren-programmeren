@@ -1,4 +1,4 @@
-aantal_croissantjes = int(input("hoe veel croissantjes wilt u hebben? "))
+ aantal_croissantjes = int(input("hoe veel croissantjes wilt u hebben? "))
 croissantjes_prijs = 0.39
 aantal_stokbroden = int(input("hoe veel stokbroden wilt u hebben?"))
 stokbroden_prijs = 2.78

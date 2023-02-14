@@ -3,4 +3,4 @@ for x in my_numbers:
     if x -12 < 0 :
         print(f'{x}:00 am')
     else:
-        print(f'{x}:00 pm')    
+        print(f'{x -12}:00 pm')    
